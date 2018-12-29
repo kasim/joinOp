@@ -1,0 +1,25 @@
+{
+  "name": "joinOp",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "title": "AND logic operator",
+  "description": "AND logic operator",
+  "ref": "github.com/kasim/joinOp",
+  "author": "Steven Chu <chu.chongmeng@gmail.com>",
+  "inputs":[
+    {
+      "name": "input1",
+      "type": "string"
+    },
+    {
+      "name": "input2",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "bool"
+    }
+  ]
+}
